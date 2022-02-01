@@ -1,10 +1,10 @@
 ---
 repository:
-  name: terraform-child-module
-  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_FIXME)
-  homepage: https://registry.terraform.io/modules/dhoppeIT/FIXME/tfe/latest
-  topics: terraform, tfe, FIXME
-  private: true
+  name: terraform-aws-iam_group
+  description: Terraform module to manage the Amazon Web Services resource (aws_iam_group, aws_iam_group_membership, aws_iam_group_policy_attachment)
+  homepage: https://registry.terraform.io/modules/dhoppeIT/iam_group/tfe/latest
+  topics: terraform, aws, iam, group
+  private: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -59,10 +59,12 @@ labels:
 branches:
   - name: main
     protection:
-      required_pull_request_reviews: null
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
       required_status_checks:
         strict: true
-        contexts: []
+        contexts: ["Validate Terraform"]
       enforce_admins: null
       required_linear_history: true
       restrictions: null
