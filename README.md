@@ -16,7 +16,7 @@ module "aws_iam_user" {
   source = "dhoppeIT/iam_user/aws"
 
   name          = "dennis.hoppe"
-  path          = "/users"
+  path          = "/users/"
   force_destroy = true
   tags          = {
     Orchestrator = "Terraform Cloud"
@@ -37,7 +37,7 @@ module "aws_iam_group" {
   source = "dhoppeIT/iam_group/aws"
 
   name       = "administrator"
-  path       = "/groups"
+  path       = "/groups/"
 
   users      = [module.aws_iam_user.name]
 
