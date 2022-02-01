@@ -5,7 +5,7 @@ aws_iam_group_membership, aws_iam_group_policy_attachment).
 
 ## Graph
 
-<img alt="Graph" src="https://github.com/dhoppeIT/terraform-aws-iam_group/blob/develop/rover.svg?raw=true" width="100%" height="100%">
+<img alt="Graph" src="https://github.com/dhoppeIT/terraform-aws-iam_group/blob/main/rover.svg?raw=true" width="100%" height="100%">
 
 ## Usage
 
