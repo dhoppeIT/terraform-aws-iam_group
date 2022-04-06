@@ -57,7 +57,7 @@ module "aws_iam_group" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.3.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.8.0 |
 
 ## Modules
 
