@@ -106,7 +106,7 @@ Apache 2 licensed. See [LICENSE](https://github.com/dhoppeIT/terraform-aws-iam_g
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.8.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.20.1 |
 
 ## Modules
 
