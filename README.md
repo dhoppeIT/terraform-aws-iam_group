@@ -57,7 +57,7 @@ module "aws_iam_group" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.8.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.34.0 |
 
 ## Modules
 
@@ -83,7 +83,6 @@ No modules.
 ## Outputs
 
 No outputs.
-
 <!-- END_TF_DOCS -->
 
 ## Authors
