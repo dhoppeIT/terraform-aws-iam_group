@@ -9,16 +9,4 @@ on:
 
 jobs:
   terraform:
-    name: Validate Terraform
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v2
-      - name: Terraform Format
-        run: terraform fmt -check -diff
-      - name: Terraform Init
-        run: terraform init
-      - name: Terraform Validate
-        run: terraform validate -no-color
+    uses: dhoppeIT/github-reusable-workflows/.github/workflows/terraform.yaml@main
